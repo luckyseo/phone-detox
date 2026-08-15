@@ -39,6 +39,7 @@ jobs:
   ios-build:
     name: iOS Build
     runs-on: macos-15
+    if: ${{ hashFiles('ios/Podfile') != '' }}
 
     steps:
       - name: Checkout

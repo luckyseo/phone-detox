@@ -1,0 +1,37 @@
+{
+  "name": "phone-detox",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "19.2.8",
+    "react-native": "0.87.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.29.7",
+    "@babel/preset-env": "7.29.7",
+    "@babel/runtime": "7.29.7",
+    "@react-native/babel-preset": "0.87.0",
+    "@react-native/eslint-config": "0.87.0",
+    "@react-native/metro-config": "0.87.0",
+    "@react-native/typescript-config": "0.87.0",
+    "@testing-library/react-native": "14.0.1",
+    "@types/jest": "30.0.0",
+    "@types/react": "19.2.7",
+    "babel-jest": "30.4.1",
+    "eslint": "9.39.5",
+    "jest": "30.4.2",
+    "prettier": "3.9.6",
+    "react-test-renderer": "19.2.8",
+    "typescript": "7.0.2"
+  },
+  "engines": {
+    "node": ">=24.11"
+  }
+}
