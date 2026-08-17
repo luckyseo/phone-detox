@@ -2,6 +2,8 @@ export enum ThemeMode {
   SYSTEM = 'SYSTEM',
   LIGHT = 'LIGHT',
   DARK = 'DARK',
+  SIMPLE_MODE = 'SIMPLE_MODE',
+  PIXEL_MODE = 'PIXEL_MODE',
   CUSTOM = 'CUSTOM',
 }
 
