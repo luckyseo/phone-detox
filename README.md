@@ -31,3 +31,22 @@ React Native communicates with native iOS through `FocusPlatform`.
 See:
 - `docs/architecture.md`
 - `docs/implementation-plan.md`
+
+## iOS local setup
+
+The iOS workspace is generated from the React Native template and lives under
+`ios/`.
+
+Before opening the app in Xcode for the first time:
+
+```bash
+sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+sudo xcodebuild -license
+npm install
+cd ios
+pod install
+open PhoneDetox.xcworkspace
+```
+
+In Xcode, select the `PhoneDetox` scheme, choose an iPhone simulator, and press
+Run.

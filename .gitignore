@@ -21,6 +21,8 @@ coverage/
 xcuserdata/
 *.xcuserstate
 DerivedData/
+ios/.xcode.env.local
+ios/build/
 
 # Local OS/editor files
 .DS_Store
